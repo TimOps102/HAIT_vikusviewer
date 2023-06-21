@@ -1,0 +1,67 @@
+{
+    "project": {
+      "name": "HAIT - Freiheitskampf",
+      "quality": 1
+   },
+    "loader": {
+      "info": "./data/info.md",
+      "items": "./data/data.csv",
+      "timeline": "./data/timeline.csv",
+      "textures": {
+        "medium": {
+          "size": 256,
+          "url": "./data/sprites/spritesheet.json"
+        },
+        "detail": {
+          "size": 1024,
+          "url": "./data/1024/"
+        },
+        "big": {
+          "size": 4096,
+          "url": "./data/4096/"
+        }
+
+      }
+    },
+    "style": {
+      "fontColor": "#323232",
+      "fontColorActive": "#eae2cb",
+      "fontBackground": "#4d4d4d",
+      "textShadow": "1px 1px 0px #e2d7cf",
+      "canvasBackground": "#DDD0C8",
+      "timelineBackground": "#fff9eb",
+      "timelineFontColor": "#000",
+      "backgroundHeader": "#035151",
+      "fontColorHeader": "#f8774f",
+      "detailBackground": "#EEE",
+      "infoBackground": "#33444c",
+      "infoFontColor": "#fff",
+      "searchbarBackground": "#4d4d4d"
+    },
+    "projection": {
+      "columns": 10
+    },
+    "detail": {
+      "structure": [
+        {
+          "name": "Full newspaper",
+          "source": "_source",
+          "display": "wide",
+          "type": "markdown"
+        },
+        {
+          "name": "Date",
+          "source": "_date",
+          "display": "wide",
+          "type": "text"
+        },
+        {
+          "name": "Articles",
+          "source": "_articles_news",
+          "display": "wide",
+          "type": "markdown"
+        }
+
+      ]
+    }
+  }
