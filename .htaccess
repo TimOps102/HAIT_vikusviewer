@@ -1,4 +1,9 @@
 <IfModule mod_headers.c>
+ Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+
+<IfModule mod_headers.c>
     # WEEK
     <FilesMatch "\.(jpg|jpeg|png|gif|swf|csv)$">
         Header set Cache-Control "max-age=315360000, public"
