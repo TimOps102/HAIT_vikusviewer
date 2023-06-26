@@ -1,7 +1,4 @@
-<IfModule mod_headers.c>
- Header set Access-Control-Allow-Origin "*"
-</IfModule>
-
+Header set Access-Control-Allow-Origin "https://digilab-hait.de/vikusviewer/"
 
 <IfModule mod_headers.c>
     # WEEK
