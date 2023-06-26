@@ -2,7 +2,7 @@
 
 # HAIT-VikusViewer
 
-Test the [Viewer](timops102.github.io/HAIT_vikusviewer/)
+Test the [Viewer](https://timops102.github.io/HAIT_vikusviewer/).
 
 This tool is a visualization of the project Freiheitskampf of the Hannah-Arendt Institute for Research on Totalitarianism e.V. in Dresden. Link to the project:
 [https://hait.tu-dresden.de/ext/forschung/der-freiheitskampf.asp](https://hait.tu-dresden.de/ext/forschung/der-freiheitskampf.asp)
@@ -26,8 +26,11 @@ In the upper right corner there is a search field. In this search field you can 
  
 The project is a clone of the VIKUS Viewer, which is described in more detail below. There is also the documentation and explanation, if you want to customize the project. 
 
+## Notes for the image data
+ 
+The image data for the HAIT-VikusViewer is located internally on a HAIT server. To allow URLS other than this [GitHubPage](timops102.github.io/HAIT_vikusviewer/) to access the images, the URL to access from must be changed in the .htaccess on the HAIT server.
+
 # VIKUS Viewer
-![VIKUS Viewer](https://vikusviewer.fh-potsdam.de/assets/teaser.png)
 
 The original [VIKUS Viewer](https://github.com/cpietsch/vikus-viewer).
 
@@ -38,11 +41,6 @@ The original [VIKUS Viewer](https://github.com/cpietsch/vikus-viewer).
 VIKUS Viewer was designed and developed by Christopher Pietsch. 
 The VIKUS Viewer software is based on the visualization code behind [Past Visions](https://github.com/cpietsch/fw4), a collaborative effort by Katrin Glinka, Christopher Pietsch, and Marian Dörk carried out at the University of Applied Sciences Potsdam in the context of the Urban Complexity Lab during the research project VIKUS (2014-2017). Related Paper: [Past Visions and Reconciling Views]( http://www.digitalhumanities.org/dhq/vol/11/2/000290/000290.html). 
 The T-SNE view has been implemented for the [Sphaera project](https://sphaera.mpiwg-berlin.mpg.de/) with funding from [Chronoi-REM](https://www.berliner-antike-kolleg.org/rem)
-
-
-### Notes for the image data
- 
-The image data for the HAIT-VikusViewer is located internally on a HAIT server. To allow URLS other than this [GitHubPage](timops102.github.io/HAIT_vikusviewer/) to access the images, the URL to access from must be changed in the .htaccess on the HAIT server.
 
 ## License
 
